@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.emad.interviews.littlepay.enums.TapType;
 
-import javax.smartcardio.Card;
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
