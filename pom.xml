@@ -109,7 +109,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.emad.interview.littlepay.LittlePayDemo</mainClass>
+                            <mainClass>org.emad.interviews.littlepay.LittlePayCodeChallenge</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
