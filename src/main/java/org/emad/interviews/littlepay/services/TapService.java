@@ -1,4 +1,4 @@
-package org.emad.interviews.services;
+package org.emad.interviews.littlepay.services;
 
 import org.emad.interviews.littlepay.entities.Tap;
 import org.emad.interviews.littlepay.enums.ErrorCode;

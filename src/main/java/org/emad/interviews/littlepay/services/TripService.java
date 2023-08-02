@@ -1,4 +1,4 @@
-package org.emad.interviews.services;
+package org.emad.interviews.littlepay.services;
 
 import lombok.Data;
 import org.emad.interviews.littlepay.entities.Card;
