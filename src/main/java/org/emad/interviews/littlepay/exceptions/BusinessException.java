@@ -14,6 +14,10 @@ public class BusinessException
     private final boolean enableSuppression;
     private final boolean writableStackTrace;
 
+    public BusinessException(IErrorCode errorCode) {
+        this(errorCode, "", null, false, true);
+    }
+
     public BusinessException(IErrorCode errorCode, Throwable cause) {
         this(errorCode, "", cause, false, true);
     }
