@@ -17,6 +17,8 @@
         <apache.common-csv.version>1.10.0</apache.common-csv.version>
         <apache.common-lang.version>3.10</apache.common-lang.version>
 
+        <jetbrain.annotation.version>20.1.0</jetbrain.annotation.version>
+
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.version>1.10.0</junit.platform.version>
 
@@ -40,6 +42,13 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${apache.common-lang.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>${jetbrain.annotation.version}</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
